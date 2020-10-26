@@ -2,7 +2,8 @@ import pandas as pd
 
 
 diretorios = ['AnatEM-IOB', 'NCBI-disease-IOB', 'BC2GM-IOB', 'BC4CHEMD', 'BC5CDR-IOB', 'BioNLP09-IOB', 'BioNLP11EPI-IOB', 'BioNLP11ID-IOB', 'BioNLP13CG-IOB', 'BioNLP13GE-IOB', 'BioNLP13PC-IOB', 'CRAFT-IOB']
-
+diretorios = ["AnatEM-IOB", 'NCBI-disease-IOB', 'CRAFT-IOB', 'BC2GM-IOB',
+        'BC4CHEMD', 'BC5CDR-IOB']
 train = pd.DataFrame({'word': [], 'label': []})
 test = pd.DataFrame({'word': [], 'label': []})
 devel = pd.DataFrame({'word': [], 'label': []})
